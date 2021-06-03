@@ -1,0 +1,1 @@
+openssl req -x509 -newkey rsa:4096 -keyout ssl/server_key.pem -out ssl/server_cert.pem -nodes -days 365 -subj "/CN=nvminhtue/O=MyOwnOrg"
